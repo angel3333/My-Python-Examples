@@ -5,4 +5,4 @@
 
 # map(), filter(), zip(), reduce() Functions Example:
 ![Python4](https://user-images.githubusercontent.com/32045473/157985524-d50743cf-452b-4f59-ba37-fdf0359f1556.png)
-![Python5](https://user-images.githubusercontent.com/32045473/157985928-834f268d-5555-4d36-ba70-822c0a8229bc.png)
+![Python5](https://user-images.githubusercontent.com/32045473/157986048-f3aa95cc-8a17-428b-974c-8bc3b02b774d.png)
