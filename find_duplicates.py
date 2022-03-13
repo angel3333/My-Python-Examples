@@ -1,3 +1,4 @@
+# Shows the duplicate strings
 my_list = ['a', 'b', 'c', 'd', 'd', 'm', 'm', 'n', 'o', 'z', 'z']
 
 duplicates = []
