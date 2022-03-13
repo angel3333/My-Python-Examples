@@ -18,7 +18,7 @@ email = ['marie_coyman@mail.com', 'bobi_garcia@mail.com', 'john_smith@mail.com',
 print(list(zip(username, email)))
 
 
-# Square using Lambda function
+# Square using Lambda function inside the map()
 print(list(map(lambda num: num**2, [1, 2, 3])))
 
 
