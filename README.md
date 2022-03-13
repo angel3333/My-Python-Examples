@@ -8,5 +8,5 @@
 ![Python5](https://user-images.githubusercontent.com/32045473/157986048-f3aa95cc-8a17-428b-974c-8bc3b02b774d.png)
 
 # Lambda Expressions Example:
-![Python6](https://user-images.githubusercontent.com/32045473/158042551-92032076-fd61-4d38-a377-988461631d42.png)
-![Python7](https://user-images.githubusercontent.com/32045473/158042660-670dbd32-d3f5-4d50-a980-fe33f5ba6161.png)
+![Python6](https://user-images.githubusercontent.com/32045473/158043470-459870db-cedd-434a-baf1-bbc9be3d0efc.png)
+![Python7](https://user-images.githubusercontent.com/32045473/158043476-e9af1a50-e62c-41e2-b760-af4694db9cb2.png)
