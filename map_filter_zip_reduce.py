@@ -1,3 +1,4 @@
+#Functional Programming Example
 from functools import reduce
 
 # Capitalize all of the currencies and print the list using map() function
