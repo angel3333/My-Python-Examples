@@ -1,3 +1,4 @@
+# Parameters and Arguments example
 def checkDriverAge(age=0):
     if int(age) < 18:
         print("Sorry, you are too young to drive this car. Powering off 😟")
