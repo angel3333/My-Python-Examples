@@ -1,4 +1,4 @@
-# performance decorator
+# Performance decorator
 from time import time
 
 
