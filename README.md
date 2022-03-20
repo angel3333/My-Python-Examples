@@ -10,3 +10,7 @@
 # Lambda Expressions Example:
 ![Python6](https://user-images.githubusercontent.com/32045473/158043470-459870db-cedd-434a-baf1-bbc9be3d0efc.png)
 ![Python7](https://user-images.githubusercontent.com/32045473/158043476-e9af1a50-e62c-41e2-b760-af4694db9cb2.png)
+
+# Performance Decorator Example:
+![Python8](https://user-images.githubusercontent.com/32045473/159141198-78a02aa1-d9fb-4d82-a512-bf48bb136464.png)
+![Python9](https://user-images.githubusercontent.com/32045473/159143021-75e90760-3300-4474-8a32-3babc11e47e7.png)
