@@ -1,6 +1,6 @@
 # Create an @authenticated decorator that only allows the function to run is user1 has 'valid' set to True:
 user1 = {
-    'name': 'Sorna',
+    'name': 'Ronald',
     'valid': True
 }
 
