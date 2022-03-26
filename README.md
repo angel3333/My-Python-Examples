@@ -14,3 +14,6 @@
 # Performance Decorator Example:
 ![Python8](https://user-images.githubusercontent.com/32045473/159143103-520e6d0e-2efb-4ae2-aa78-8e4b4efecaea.png)
 ![Python9](https://user-images.githubusercontent.com/32045473/159143111-94f57d8f-1766-4ab6-9163-016dfc42e6cf.png)
+
+# Authenticated Decorator Example:
+![Python10](https://user-images.githubusercontent.com/32045473/159143405-9b83d37f-4bd1-4d81-83a2-f988c947639a.png)
