@@ -17,3 +17,6 @@
 
 # Authenticated Decorator Example:
 ![Python10](https://user-images.githubusercontent.com/32045473/159143405-9b83d37f-4bd1-4d81-83a2-f988c947639a.png)
+
+# Error Handling Example:
+![Python11](https://user-images.githubusercontent.com/32045473/160259848-bb356ebf-f41f-4b9b-9d58-d81795155636.png)
