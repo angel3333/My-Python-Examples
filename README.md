@@ -20,3 +20,7 @@
 
 # Error Handling Example:
 ![Python11](https://user-images.githubusercontent.com/32045473/160259848-bb356ebf-f41f-4b9b-9d58-d81795155636.png)
+
+# sys Module Example:
+![Python12](https://user-images.githubusercontent.com/32045473/167054407-a9b34957-68b9-411e-b607-5a889e8ae59e.png)
+![Python13](https://user-images.githubusercontent.com/32045473/167054423-5d4d4d97-5f27-4930-8beb-6bbecd7c0c3e.png)
