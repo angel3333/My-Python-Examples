@@ -24,3 +24,6 @@
 # sys Module Example:
 ![Python12](https://user-images.githubusercontent.com/32045473/167054407-a9b34957-68b9-411e-b607-5a889e8ae59e.png)
 ![Python13](https://user-images.githubusercontent.com/32045473/167054423-5d4d4d97-5f27-4930-8beb-6bbecd7c0c3e.png)
+
+# File I/O Example:
+![Python14](https://user-images.githubusercontent.com/32045473/168042940-19f31355-4800-48e0-ae3c-1137e8397409.png)
