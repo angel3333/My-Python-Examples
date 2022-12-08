@@ -27,3 +27,8 @@
 
 # File I/O Example:
 ![Python14](https://user-images.githubusercontent.com/32045473/168042940-19f31355-4800-48e0-ae3c-1137e8397409.png)
+
+# RegEx Example:
+![Python15](https://user-images.githubusercontent.com/32045473/206588113-4125c44a-df45-4a42-b7fd-1fc822cb6a92.png)
+![Python16](https://user-images.githubusercontent.com/32045473/206590109-9b4ece8c-ef4a-4cf2-9983-0bf0cf776f61.png)
+
