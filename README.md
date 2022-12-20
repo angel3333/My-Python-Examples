@@ -7,9 +7,7 @@
 ![Python4](https://user-images.githubusercontent.com/32045473/157985524-d50743cf-452b-4f59-ba37-fdf0359f1556.png)
 ![Python5](https://user-images.githubusercontent.com/32045473/157986048-f3aa95cc-8a17-428b-974c-8bc3b02b774d.png)
 
-#![lambda(1)](https://user-images.githubusercontent.com/32045473/208557353-afe24a9f-2cf2-4505-b552-5602ec5335c2.png)
-![lambda](https://user-images.githubusercontent.com/32045473/208557358-2b18bcb0-00c6-4c77-a36e-329d66437f32.png)
- Lambda Expressions Example:
+# Lambda Expressions Example ![lambda](https://user-images.githubusercontent.com/32045473/208557358-2b18bcb0-00c6-4c77-a36e-329d66437f32.png):
 ![Python6](https://user-images.githubusercontent.com/32045473/158043470-459870db-cedd-434a-baf1-bbc9be3d0efc.png)
 ![Python7](https://user-images.githubusercontent.com/32045473/158043476-e9af1a50-e62c-41e2-b760-af4694db9cb2.png)
 
