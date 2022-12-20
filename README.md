@@ -11,24 +11,24 @@
 ![Python6](https://user-images.githubusercontent.com/32045473/158043470-459870db-cedd-434a-baf1-bbc9be3d0efc.png)
 ![Python7](https://user-images.githubusercontent.com/32045473/158043476-e9af1a50-e62c-41e2-b760-af4694db9cb2.png)
 
-# Performance Decorator Example:
+# 🚄⏳⏱️Performance Decorator Example:
 ![Python8](https://user-images.githubusercontent.com/32045473/159143103-520e6d0e-2efb-4ae2-aa78-8e4b4efecaea.png)
 ![Python9](https://user-images.githubusercontent.com/32045473/159143111-94f57d8f-1766-4ab6-9163-016dfc42e6cf.png)
 
-# Authenticated Decorator Example:
+# 🛸Authenticated Decorator Example:
 ![Python10](https://user-images.githubusercontent.com/32045473/159143405-9b83d37f-4bd1-4d81-83a2-f988c947639a.png)
 
-# Error Handling Example:
+# ⚔️⁉️Error Handling Example:
 ![Python11](https://user-images.githubusercontent.com/32045473/160259848-bb356ebf-f41f-4b9b-9d58-d81795155636.png)
 
-# sys Module Example:
+# 🤔❓sys Module Example:
 ![Python12](https://user-images.githubusercontent.com/32045473/167054407-a9b34957-68b9-411e-b607-5a889e8ae59e.png)
 ![Python13](https://user-images.githubusercontent.com/32045473/167054423-5d4d4d97-5f27-4930-8beb-6bbecd7c0c3e.png)
 
-# File I/O Example:
+# 🇯🇵㊗️㊙️File I/O Example:
 ![Python14](https://user-images.githubusercontent.com/32045473/168042940-19f31355-4800-48e0-ae3c-1137e8397409.png)
 
-# RegEx Example:
+# 🔣🔐RegEx Example:
 ![Python15](https://user-images.githubusercontent.com/32045473/206588113-4125c44a-df45-4a42-b7fd-1fc822cb6a92.png)
 ![Python16](https://user-images.githubusercontent.com/32045473/206590109-9b4ece8c-ef4a-4cf2-9983-0bf0cf776f61.png)
 
