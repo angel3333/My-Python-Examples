@@ -1,5 +1,4 @@
 # import modules
-from re import T
 import string
 import random
 
