@@ -1,14 +1,17 @@
 # Create an @authenticated decorator that only allows the function to run is user1 has 'valid' set to True:
 user1 = {
-    'name': 'Ronald',
+    'name': 'Admin',
     'valid': True
 }
 
 
 def authenticated(fn):
     def wrapper(*args, **kwargs):
-        if args[0]['valid']:
+        user = args[0]
+        if user['valid'] and user['name'] == 'Admin':
             return fn(*args, **kwargs)
+        else:
+            print(f"User '{user['name']}' is not authenticated")
     return wrapper
 
 
