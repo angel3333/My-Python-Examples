@@ -32,3 +32,5 @@
 ![Python15](https://user-images.githubusercontent.com/32045473/206588113-4125c44a-df45-4a42-b7fd-1fc822cb6a92.png)
 ![Python16](https://user-images.githubusercontent.com/32045473/206590109-9b4ece8c-ef4a-4cf2-9983-0bf0cf776f61.png)
 
+# 👩🏻‍💻🔳🧠🦾CPU/RAM Performance:
+![Capture2](https://github.com/meleksabit/My-Python-Examples/assets/32045473/b188e394-f017-4633-9a4f-a77948623f61)
