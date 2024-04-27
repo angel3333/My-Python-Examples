@@ -34,3 +34,6 @@
 
 # 👩🏻‍💻🔳🧠🦾CPU/RAM Performance:
 ![Capture2](https://github.com/meleksabit/My-Python-Examples/assets/32045473/b188e394-f017-4633-9a4f-a77948623f61)
+
+# 🔒🔑🔓Simple Password Generator:
+![Screenshot_2024-04-28_01-09-54](https://github.com/meleksabit/My-Python-Examples/assets/32045473/71029d4f-e37e-4226-920a-f61a09d80143)
