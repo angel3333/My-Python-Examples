@@ -36,7 +36,7 @@
 ![Capture2](https://github.com/meleksabit/My-Python-Examples/assets/32045473/b188e394-f017-4633-9a4f-a77948623f61)
 
 # 🔒🔑🔓Simple Password Generator:
-![Screenshot_2024-04-28_02-14-35](https://github.com/meleksabit/My-Python-Examples/assets/32045473/7ecf41f0-f895-438f-9792-be556114d98c)
+![Screenshot_2024-04-28_02-34-12](https://github.com/meleksabit/My-Python-Examples/assets/32045473/66dc40f4-0139-4c69-a93c-24de35255da1)
 
 # 👨🏻‍💻🔣🛅Strong Password Generator(All RegEx Symbols):
 ![Screenshot_2024-04-28_02-06-02](https://github.com/meleksabit/My-Python-Examples/assets/32045473/1af08765-944b-4c13-a2ed-dec7a5d33fc7)
