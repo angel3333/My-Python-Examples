@@ -12,10 +12,10 @@ def run_command(command, cwd=None):
         sys.exit(result.returncode)
     return result.stdout
 
-# Static Code Analysis and Code Coverage (using SonarQube)
-def run_sonarqube_analysis(path):
-    print("Running SonarQube for static code analysis and code coverage...")
-    run_command(f"sonar-scanner -Dsonar.projectBaseDir={path}")
+# Static Code Analysis (using Bandit)
+def run_bandit(path):
+    print("Running Bandit for static code analysis...")
+    run_command(f"bandit -r {path}")
 
 # Dependency Checking (using Safety)
 def run_safety():
@@ -41,8 +41,8 @@ def run_pylint(path):
 def main():
     project_path = os.getcwd()
 
-    # Static Analysis and Code Coverage with SonarQube
-    run_sonarqube_analysis(project_path)
+    # Static Analysis
+    run_bandit(project_path)
     
     # Dependency Checking
     run_safety()
@@ -54,7 +54,7 @@ def main():
     terraform_path = os.path.join(project_path, 'terraform')
     if os.path.exists(terraform_path):
         run_terraform_scan(terraform_path)
-
+    
     # Linting
     run_pylint(project_path)
 
