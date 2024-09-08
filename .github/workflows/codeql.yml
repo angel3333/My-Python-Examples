@@ -17,7 +17,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '33 23 * * 1'
+    - cron: '33 23 * * 1' # CodeQL will run every Monday at 23:33 UTC
 
 jobs:
   analyze:
