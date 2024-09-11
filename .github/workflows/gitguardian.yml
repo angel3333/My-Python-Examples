@@ -2,7 +2,7 @@ name: GitGuardian Scan
 
 on:
   push:
-    branches: 
+    branches:
       - main
   pull_request:
     branches:
@@ -19,6 +19,6 @@ jobs:
       - name: Run GitGuardian ggshield scan
         uses: GitGuardian/ggshield-action@v1
         with:
-          args: scan path --exit-zero .
+          args: secret scan path --exit-zero .
         env:
           GITGUARDIAN_API_KEY: ${{ secrets.GITGUARDIAN_API_KEY }}
