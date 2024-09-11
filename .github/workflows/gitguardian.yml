@@ -19,6 +19,6 @@ jobs:
       - name: Run GitGuardian ggshield scan
         uses: GitGuardian/ggshield-action@v1
         with:
-          args: path --exit-zero .
+          args: path --exit-zero /
         env:
           GITGUARDIAN_API_KEY: ${{ secrets.GITGUARDIAN_API_KEY }}
