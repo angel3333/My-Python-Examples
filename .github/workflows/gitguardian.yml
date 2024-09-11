@@ -2,7 +2,7 @@ name: GitGuardian Scan
 
 on:
   push:
-    branches:
+    branches: 
       - main
   pull_request:
     branches:
@@ -10,14 +10,15 @@ on:
 
 jobs:
   ggshield:
-    name: GitGuardian Secret Detection
+    name: GitGuardian Scan
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run GitGuardian ggshield
+      - name: Run GitGuardian ggshield scan
         uses: GitGuardian/ggshield-action@v1
         with:
-          api-key: ${{ secrets.GITGUARDIAN_API_KEY }}
+          args: scan path --exit-zero .
+        env:
+          GITGUARDIAN_API_KEY: ${{ secrets.GITGUARDIAN_API_KEY }}
