@@ -1,4 +1,5 @@
 # $\color{Cerulean}{Python\}$ $\color{Goldenrod}{Examples\}$
+[![GitGuardian scan](https://github.com/meleksabit/My-Python-Examples/actions/workflows/gitguardian.yml/badge.svg)](https://github.com/meleksabit/My-Python-Examples/actions/workflows/gitguardian.yml)
 [![CodeQL](https://github.com/meleksabit/My-Python-Examples/actions/workflows/codeql.yml/badge.svg)](https://github.com/meleksabit/My-Python-Examples/actions/workflows/codeql.yml)
 [![Bandit](https://github.com/meleksabit/My-Python-Examples/actions/workflows/bandit.yml/badge.svg)](https://github.com/meleksabit/My-Python-Examples/actions/workflows/bandit.yml)
 [![DevSecOps Pipeline](https://github.com/meleksabit/My-Python-Examples/actions/workflows/devsecops-pipeline.yml/badge.svg)](https://github.com/meleksabit/My-Python-Examples/actions/workflows/devsecops-pipeline.yml)
