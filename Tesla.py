@@ -1,5 +1,5 @@
 # Parameters and Arguments example
-def checkDriverAge(age=0):
+def check_driver_age(age=0):
     if int(age) < 18:
         print("Sorry, you are too young to drive this car. Powering off 😟")
     elif int(age) > 18:
@@ -8,4 +8,4 @@ def checkDriverAge(age=0):
         print("Congratulations on your first year of driving. Enjoy the ride! 🚀")
 
 
-checkDriverAge()
+check_driver_age()
