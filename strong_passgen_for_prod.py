@@ -48,7 +48,7 @@ while len(result) < characters_number:
     result.append(secrets.choice(s1 + s2 + s3 + s4))
 
 # Shuffle the final password securely
-secrets.SystemRandom().shuffle(result)
+secrets.SystemRandom().shuffle(result)   # Cryptographically secure shuffling
 
 # Join the result to form the password
 password = "".join(result)
