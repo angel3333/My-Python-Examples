@@ -1,17 +1,20 @@
 import string
 import random
 import secrets
+from cryptography.fernet import Fernet
 
-# Store all characters in lists
+# Step 1: Generate a secure encryption key (you should store this securely, not hardcoded here)
+key = Fernet.generate_key()
+cipher_suite = Fernet(key)
+
+# Step 2: Define all character sets for password generation
 s1 = list(string.ascii_lowercase)
 s2 = list(string.ascii_uppercase)
 s3 = list(string.digits)
 s4 = list(string.punctuation)
 
-# Ask user about the number of characters
+# Step 3: Ask user for password length
 user_input = input("How many characters do you want in your password? ")
-
-# Check if the input is a valid number and greater than or equal to 8
 while True:
     try:
         characters_number = int(user_input)
@@ -20,41 +23,45 @@ while True:
             user_input = input("Please, enter your number again: ")
         else:
             break
-    except ValueError:  # Catch invalid inputs
+    except ValueError:
         print("Invalid input. Please enter a valid number.")
         user_input = input("Please, enter your number again: ")
 
-# Securely shuffle all character lists
-s1 = secrets.SystemRandom().sample(s1, len(s1))
-s2 = secrets.SystemRandom().sample(s2, len(s2))
-s3 = secrets.SystemRandom().sample(s3, len(s3))
-s4 = secrets.SystemRandom().sample(s4, len(s4))
+# Step 4: Shuffle the character lists securely using a cryptographically secure PRNG
+secrets.SystemRandom().shuffle(s1)
+secrets.SystemRandom().shuffle(s2)
+secrets.SystemRandom().shuffle(s3)
+secrets.SystemRandom().shuffle(s4)
 
-# Calculate portions of the password
-part1 = round(characters_number * 0.3)  # 30% lowercase and uppercase letters
-part2 = round(characters_number * 0.2)  # 20% digits and punctuations
+# Step 5: Calculate the portion of characters for each list
+part1 = round(characters_number * 0.30)  # 30% of characters from lowercase letters
+part2 = round(characters_number * 0.20)  # 20% of characters from digits and punctuation
 
-# Generate the password
+# Step 6: Generate the password by appending characters from each list
 result = []
 for x in range(part1):
     result.append(s1[x])
     result.append(s2[x])
+
 for x in range(part2):
     result.append(s3[x])
     result.append(s4[x])
 
-# Ensure the result has the exact number of characters requested
+# Step 7: Ensure the result has the exact number of characters requested
 while len(result) < characters_number:
     result.append(secrets.choice(s1 + s2 + s3 + s4))
 
-# Securely shuffle the result using a cryptographically secure PRNG.
-secrets.SystemRandom().shuffle(result)   # Using SystemRandom ensures secure shuffling
+# Step 8: Shuffle the result to avoid patterns
+secrets.SystemRandom().shuffle(result)
 
-# Join the result to form the password
+# Step 9: Join the result to form the password
 password = "".join(result)
 
-# Mask the password except for the last 4 characters
-masked_password = '*' * (len(password) - 4) + password[-4:]
+# Step 10: Encrypt the password
+encrypted_password = cipher_suite.encrypt(password.encode())
 
-# Output the masked password
-print("Generated password:", masked_password)
+# Step 11: Store the encrypted password securely
+with open("password_storage.txt", "wb") as file:
+    file.write(encrypted_password)
+
+print("Your password has been securely generated and encrypted.")
