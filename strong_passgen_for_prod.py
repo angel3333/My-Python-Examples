@@ -1,5 +1,5 @@
 import string
-import random
+import secrets
 
 # Store all characters in lists
 s1 = list(string.ascii_lowercase)
@@ -19,11 +19,11 @@ while True:
     except ValueError:  # Catch invalid inputs that cannot be converted to an integer
         print("Invalid input. Please enter a valid number.")
 
-# Shuffle all character lists
-random.shuffle(s1)
-random.shuffle(s2)
-random.shuffle(s3)
-random.shuffle(s4)
+# Shuffle all character lists securely
+s1 = secrets.SystemRandom().sample(s1, len(s1))
+s2 = secrets.SystemRandom().sample(s2, len(s2))
+s3 = secrets.SystemRandom().sample(s3, len(s3))
+s4 = secrets.SystemRandom().sample(s4, len(s4))
 
 # Calculate portions of the password
 part1 = round(characters_number * 0.3)  # 30% lowercase and uppercase letters
@@ -32,19 +32,19 @@ part2 = round(characters_number * 0.2)  # 20% digits and punctuation
 # Generate the password components
 result = []
 for x in range(part1):
-    result.append(s1[x])
-    result.append(s2[x])
+    result.append(secrets.choice(s1))
+    result.append(secrets.choice(s2))
 
 for x in range(part2):
-    result.append(s3[x])
-    result.append(s4[x])
+    result.append(secrets.choice(s3))
+    result.append(secrets.choice(s4))
 
 # Ensure the result has the exact number of characters requested
 while len(result) < characters_number:
-    result.append(random.choice(s1 + s2 + s3 + s4))
+    result.append(secrets.choice(s1 + s2 + s3 + s4))
 
-# Shuffle the final password and join into a string
-random.shuffle(result)
+# Shuffle the final password securely and join into a string
+secrets.SystemRandom().shuffle(result)
 password = "".join(result)
 
 # Output the generated password
