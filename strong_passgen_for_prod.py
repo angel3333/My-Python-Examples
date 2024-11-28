@@ -19,7 +19,8 @@ while True:
     except ValueError:  # Catch invalid inputs that cannot be converted to an integer
         print("Invalid input. Please enter a valid number.")
 
-# Shuffle all character lists securely
+# Using secrets.SystemRandom().sample() ensures cryptographically secure shuffling
+# This is necessary for secure password generation as it avoids predictable patterns
 s1 = secrets.SystemRandom().sample(s1, len(s1))
 s2 = secrets.SystemRandom().sample(s2, len(s2))
 s3 = secrets.SystemRandom().sample(s3, len(s3))
