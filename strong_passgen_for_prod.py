@@ -33,23 +33,25 @@ while True:
         user_input = input("Please, enter your number again: ")
 
 # Step 4: Securely shuffle the character lists using secrets.SystemRandom()
+# secrets.SystemRandom().sample() is appropriate here, as it uses a CSPRNG
 s1 = secrets.SystemRandom().sample(s1, len(s1))  # Securely shuffle lowercase letters
 s2 = secrets.SystemRandom().sample(s2, len(s2))  # Securely shuffle uppercase letters
 s3 = secrets.SystemRandom().sample(s3, len(s3))  # Securely shuffle digits
 s4 = secrets.SystemRandom().sample(s4, len(s4))  # Securely shuffle punctuation
 
-# Step 5: Create the password
-all_chars = s1 + s2 + s3 + s4
-result = [secrets.choice(all_chars) for _ in range(characters_number)]
+# Step 5: Create the password securely using secrets.choice, which uses CSPRNG
+# Use secrets.choice for selecting individual characters randomly from each list
+result = [secrets.choice(s1 + s2 + s3 + s4) for _ in range(characters_number)]
 
-# Step 6: Secure final shuffle using SystemRandom().sample
+# Step 6: Final secure shuffle using secrets.SystemRandom().sample()
+# Using secrets.SystemRandom().sample ensures that the shuffle is cryptographically secure
 result = secrets.SystemRandom().sample(result, len(result))  # Secure final shuffle
 
 # Step 7: Join and encrypt the password
 password = "".join(result)
 encrypted_password = cipher_suite.encrypt(password.encode())
 
-# Step 8: Store the encrypted password
+# Step 8: Store the encrypted password securely
 try:
     with open("password_storage.txt", "wb") as file:
         file.write(encrypted_password)
