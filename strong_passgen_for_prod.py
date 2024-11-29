@@ -42,8 +42,8 @@ s4 = secrets.SystemRandom().sample(s4, len(s4))  # Securely shuffle punctuation
 all_chars = s1 + s2 + s3 + s4
 result = [secrets.choice(all_chars) for _ in range(characters_number)]
 
-# Step 6: Shuffle the result
-secrets.SystemRandom().shuffle(result)
+# Step 6: Secure final shuffle using SystemRandom().sample
+result = secrets.SystemRandom().sample(result, len(result))  # Secure final shuffle
 
 # Step 7: Join and encrypt the password
 password = "".join(result)
