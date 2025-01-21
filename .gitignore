@@ -31,9 +31,10 @@ MANIFEST
 *.manifest
 *.spec
 
-# Installer logs
+# Installer logs & other txt files
 pip-log.txt
 pip-delete-this-directory.txt
+password_storage.txt
 
 # Unit test / coverage reports
 htmlcov/
